@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "./static/css/main.15528b1a.css",
+    "main.js": "./static/js/main.2a027a0a.js",
+    "static/media/anonymous.jpg": "./static/media/anonymous.cf4c18726621699d3dda.jpg",
+    "static/media/awesomeCard.png": "./static/media/awesomeCard.7b6a60ba66ec65bab5c1.png",
+    "static/media/animeSearche.jpg": "./static/media/animeSearche.8f6906d6b8ee9b2e7f7c.jpg",
+    "static/media/principal_photo.jpg": "./static/media/principal_photo.fec9530b307102a10082.jpg",
+    "static/media/hpImg.jpeg": "./static/media/hpImg.fea2e3b7d141e6bc2e8f.jpeg",
+    "static/media/code_img.jpg": "./static/media/code_img.dd48881044731ad912d9.jpg",
+    "static/media/undefined.png": "./static/media/undefined.0e001f13e5584bab341a.png",
+    "static/media/rpsGame.jpg": "./static/media/rpsGame.3644b4946db269f5351e.jpg",
+    "index.html": "./index.html",
+    "main.15528b1a.css.map": "./static/css/main.15528b1a.css.map",
+    "main.2a027a0a.js.map": "./static/js/main.2a027a0a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15528b1a.css",
+    "static/js/main.2a027a0a.js"
+  ]
+}
