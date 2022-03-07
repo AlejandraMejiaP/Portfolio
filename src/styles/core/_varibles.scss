@@ -1,0 +1,36 @@
+// fonts
+
+$font-primary: 'Playfair Display', serif;
+$font-titles: 'Oswald', sans-serif;
+
+// colors
+
+$pincipal-color: #A67CF7; 
+$text-color: #16021a;
+
+
+/* write media queries with sass mixins */
+
+// how to use: @include tablet { tablet styles here }
+@mixin tablet {
+    @media (min-width: 768px) {
+        @content;
+    }
+}
+
+// how to use: @include desktop { desktop styles here }
+@mixin desktop {
+    @media (min-width: 1024px) {
+        @content;
+    }
+}
+@mixin maxdesktop {
+    @media (min-width: 1400px) {
+        @content;
+    }
+}
+@mixin gigant {
+    @media (min-width: 2000px) {
+        @content;
+    }
+}

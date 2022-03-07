@@ -1,0 +1,98 @@
+.about {
+  height: auto;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  font-family: $font-primary;
+  color: $text-color;
+  @include tablet {
+    height: 100vh;
+    font-size: 1.1rem;
+  }
+  @include desktop {
+    font-size: 1.3rem;
+  }
+  &__title {
+    text-align: center;
+    font-family: $font-titles;
+    font-size: 2.3rem;
+    color: rgb(49, 7, 49);
+    padding-bottom: 8px;
+    @include tablet {
+      font-size: 2.5rem;
+    }
+    @include desktop {
+      font-size: 2.7rem;
+    }
+  }
+  &__icon {
+    font-size: 10rem;
+    color: rgb(49, 7, 49);
+    text-align: center;
+    margin-bottom: 8px;
+    text-shadow: 0px 0px 12px rgb(158, 99, 236);
+
+    @include tablet {
+      margin-right: 15px;
+      float: left;
+    }
+    @include desktop {
+      margin-bottom: 20px;
+    }
+  }
+  &__icon:hover {
+    text-shadow: 0px 0px 12px rgb(104, 17, 131);
+  }
+
+  &__txt {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    @include tablet {
+      width: auto;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+    &--p {
+      padding: 8px;
+      text-align: justify;
+    }
+  }
+}
+.technologies {
+  &__title {
+    margin-top: 160px;
+    text-align: center;
+    font-family: $font-titles;
+    font-size: 2.3rem;
+    color: rgb(49, 7, 49);
+    padding-bottom: 8px;
+    @include tablet {
+      font-size: 2.5rem;
+      margin-top: 0px;
+    }
+    @include desktop {
+      font-size: 2.7rem;
+      margin-top: 0px;
+    }
+  }
+  &__div {
+    color: $text-color;
+    margin-top: 60px;
+    margin-left: 5px;
+    font-size: 3rem;
+    display: flex;
+    justify-content: space-around;
+
+    @include tablet {
+      font-size: 4.9rem;
+    }
+    @include desktop {
+      font-size: 5.5rem;
+    }
+  }
+}
+.fa-brands:hover {
+  color: rgb(52, 6, 66);
+}

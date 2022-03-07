@@ -1,0 +1,40 @@
+.contact {
+  height: 50vh;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0, auto;
+  &__title {
+    margin-top: 100px;
+    text-align: center;
+    font-family: $font-titles;
+    font-size: 2.3rem;
+    color: rgb(49, 7, 49);
+    padding-bottom: 8px;
+    @include tablet {
+      font-size: 2.5rem;
+    }
+    @include desktop {
+      font-size: 2.7rem;
+    }
+  }
+  &__icons {
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+
+    &--each {
+      text-decoration: none;
+      color: $text-color;
+      padding: 10px;
+      @include tablet {
+        padding: 20px;
+      }
+      @include desktop {
+        padding: 30px;
+      }
+    }
+  }
+}
