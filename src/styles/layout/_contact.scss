@@ -20,13 +20,11 @@
     }
   }
   &__icons {
-    text-decoration: none;
     font-size: 2rem;
     display: flex;
     justify-content: space-between;
 
     &--each {
-      text-decoration: none;
       color: $text-color;
       padding: 10px;
       @include tablet {
@@ -37,4 +35,7 @@
       }
     }
   }
+}
+.fa-paper-plane:hover {
+  color: rgb(52, 6, 66);
 }

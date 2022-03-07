@@ -10,7 +10,7 @@ import {
 
 // Imgs proyects
 import rockpaperscissors from "../../images/miniatures_proyects/rpsGame.jpg";
-import animeSearcher from "../../images/miniatures_proyects/animeSearcher.jpeg";
+import animeSearcher from "../../images/miniatures_proyects/animeSearche.jpg";
 import codeFigthersIMG from "../../images/miniatures_proyects/code_img.jpg";
 import anonymousProxy from "../../images/miniatures_proyects/anonymous.jpg";
 import awesomeCards from "../../images/miniatures_proyects/awesomeCard.png";
@@ -99,7 +99,7 @@ function Proyects() {
 
   return (
     <section className="proyect" id="proyects">
-      <h3 className="proyect__title">Proyectos:</h3>
+      <h3 className="proyect__title">Proyectos</h3>
       <div className="proyect__slider">
         <Carousel
           previous={previousButton}

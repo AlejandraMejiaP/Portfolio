@@ -159,14 +159,15 @@ body {
   }
 }
 .mouse-efect {
-  font-size: 2rem;
+  color: #52045c8a;
+  font-size: 1rem;
   position: absolute;
   top: 55%;
   left: 80%;
   animation-iteration-count: infinite;
   animation-name: mouse;
   animation-timing-function: linear;
-  animation-duration: 2.3s;
+  animation-duration: 5.3s;
 
   @include tablet {
     top: 70%;

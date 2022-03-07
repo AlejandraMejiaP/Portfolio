@@ -1,7 +1,7 @@
 function Contact() {
   return (
     <section className="contact" id="contact">
-      <h4 className="contact__title">Contacto:</h4>
+      <h4 className="contact__title">Contacto</h4>
 
       <ul className="contact__icons">
         <li className="contact__icons--each">

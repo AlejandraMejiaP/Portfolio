@@ -1,7 +1,7 @@
 function Technologies() {
   return (
     <section className="technologies" id="technologies">
-      <h3 className="technologies__title">Tecnologías:</h3>
+      <h3 className="technologies__title">Tecnologías</h3>
       <div className="technologies__div">
         <i class="fa-brands fa-js-square"></i>
         <i class="fa-brands fa-react"></i>
